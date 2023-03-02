@@ -4,7 +4,7 @@
 #   Author: Hyy2001X                                      #
 ###########################################################
 
-name: P&W R619AC 128M
+name: 17LEAN
 
 ### 以下内容请保持不变 ( 请修改下方的 [环境变量设置] )
 on:
@@ -39,11 +39,11 @@ env:
 # 源码仓库:分支
   DEFAULT_SOURCE: coolsnowwolf/lede:master
 # 上传固件到 Github Releases
-  UPLOAD_RELEASES: true
+  UPLOAD_RELEASES: false
 # 上传固件到 Github Artifacts
-  UPLOAD_ARTIFACTS: false
+  UPLOAD_ARTIFACTS: true
 # 上传 bin 文件夹到 Github Artifacts
-  UPLOAD_BIN_ARTIFACTS: false
+  UPLOAD_BIN_ARTIFACTS: true
 # 删除无用文件以增加编译空间
   DELETE_USELESS_FILES: true
 # 删除早期的 workflow 任务
