@@ -11,7 +11,7 @@ Firmware_Diy_Core() {
 	Default_Title="Powered by AutoBuild-Actions"
 
 	Short_Fw_Date=true
-	x86_Full_Images=false
+	x86_Full_Images=true
 	Fw_Format=false
 	Regex_Skip="packages|buildinfo|sha256sums|manifest|kernel|rootfs|factory|itb|profile|ext4|json"
 
