@@ -1,7 +1,7 @@
 #!/bin/bash
 # AutoBuild Module by Hyy2001 <https://github.com/Hyy2001X/AutoBuild-Actions-BETA>
 # AutoBuild DiyScript
-
+git clone https://github.com/op4packages/pdnsd-alt ./package/pdnsd-alt
 Firmware_Diy_Core() {
 
 	Author=AUTO
